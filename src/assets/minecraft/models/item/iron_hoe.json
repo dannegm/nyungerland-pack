@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/iron_hoe"
+    },
+    "overrides": [{ "predicate": { "custom_model_data": 102 }, "model": "tools:item/trowel" }]
+}

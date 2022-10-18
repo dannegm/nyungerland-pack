@@ -1,7 +1,7 @@
 {
-    "parent": "item/handheld_grappling_hook",
+    "parent": "grapplinghook:item/handheld_grappling_hook",
     "textures": {
-        "layer0": "grapplinghook:item/grappling_hook_netherite"
+        "layer0": "grapplinghook:item/grappling_hook_gold"
     },
     "overrides": [{ "predicate": { "cast": 1 }, "model": "grapplinghook:item/grappling_hook_cast" }]
 }

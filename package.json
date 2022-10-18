@@ -7,6 +7,7 @@
     "scripts": {
         "build": "sh ./scripts/build.sh",
         "upload": "node ./scripts/upload/index.mjs",
+        "deploy": "yarn build && yarn upload",
         "format": "prettier . --write --loglevel warn",
         "echo": "node ./tools/echo/index.mjs"
     },

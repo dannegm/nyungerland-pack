@@ -1,0 +1,89 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/writable_book"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 220 }, "model": "starmail:item/letter-and-quill" },
+        {
+            "predicate": { "custom_model_data": 222 },
+            "model": "starmail:item/black-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 224 },
+            "model": "starmail:item/red-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 226 },
+            "model": "starmail:item/green-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 228 },
+            "model": "starmail:item/brown-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 230 },
+            "model": "starmail:item/blue-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 232 },
+            "model": "starmail:item/purple-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 234 },
+            "model": "starmail:item/cyan-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 236 },
+            "model": "starmail:item/light_gray-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 238 },
+            "model": "starmail:item/gray-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 240 },
+            "model": "starmail:item/pink-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 242 },
+            "model": "starmail:item/lime-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 244 },
+            "model": "starmail:item/yellow-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 246 },
+            "model": "starmail:item/light_blue-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 248 },
+            "model": "starmail:item/magenta-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 250 },
+            "model": "starmail:item/orange-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 252 },
+            "model": "starmail:item/white-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 254 },
+            "model": "starmail:item/fancy-red-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 256 },
+            "model": "starmail:item/fancy-green-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 258 },
+            "model": "starmail:item/fancy-blue-letter-and-quill"
+        },
+        {
+            "predicate": { "custom_model_data": 260 },
+            "model": "starmail:item/fancy-purple-letter-and-quill"
+        }
+    ]
+}

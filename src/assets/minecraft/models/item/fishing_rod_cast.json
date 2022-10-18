@@ -1,0 +1,32 @@
+{
+    "parent": "item/fishing_rod",
+    "textures": {
+        "layer0": "item/fishing_rod_cast"
+    },
+    "overrides": [
+        {
+            "predicate": { "custom_model_data": 910 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "custom_model_data": 920 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "custom_model_data": 930 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "custom_model_data": 940 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "custom_model_data": 950 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "custom_model_data": 960 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        }
+    ]
+}

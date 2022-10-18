@@ -1,0 +1,71 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/written_book"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 221 }, "model": "starmail:item/written-letter" },
+        {
+            "predicate": { "custom_model_data": 223 },
+            "model": "starmail:item/black-written-letter"
+        },
+        { "predicate": { "custom_model_data": 225 }, "model": "starmail:item/red-written-letter" },
+        {
+            "predicate": { "custom_model_data": 227 },
+            "model": "starmail:item/green-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 229 },
+            "model": "starmail:item/brown-written-letter"
+        },
+        { "predicate": { "custom_model_data": 231 }, "model": "starmail:item/blue-written-letter" },
+        {
+            "predicate": { "custom_model_data": 233 },
+            "model": "starmail:item/purple-written-letter"
+        },
+        { "predicate": { "custom_model_data": 235 }, "model": "starmail:item/cyan-written-letter" },
+        {
+            "predicate": { "custom_model_data": 237 },
+            "model": "starmail:item/light_gray-written-letter"
+        },
+        { "predicate": { "custom_model_data": 239 }, "model": "starmail:item/gray-written-letter" },
+        { "predicate": { "custom_model_data": 241 }, "model": "starmail:item/pink-written-letter" },
+        { "predicate": { "custom_model_data": 243 }, "model": "starmail:item/lime-written-letter" },
+        {
+            "predicate": { "custom_model_data": 245 },
+            "model": "starmail:item/yellow-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 247 },
+            "model": "starmail:item/light_blue-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 249 },
+            "model": "starmail:item/magenta-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 251 },
+            "model": "starmail:item/orange-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 253 },
+            "model": "starmail:item/white-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 255 },
+            "model": "starmail:item/fancy-red-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 257 },
+            "model": "starmail:item/fancy-green-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 259 },
+            "model": "starmail:item/fancy-blue-written-letter"
+        },
+        {
+            "predicate": { "custom_model_data": 261 },
+            "model": "starmail:item/fancy-purple-written-letter"
+        }
+    ]
+}

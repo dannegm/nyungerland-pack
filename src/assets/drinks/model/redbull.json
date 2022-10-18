@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "drinks:item/can_overlay",
+        "layer1": "drinks:item/redbull"
+    }
+}

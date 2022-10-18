@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/prismarine_shard"
+    },
+    "display": {
+        "gui": {
+            "rotation": [0, 180, 0]
+        },
+        "fixed": {
+            "rotation": [0, 0, 0]
+        }
+    }
+}

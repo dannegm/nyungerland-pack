@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/oak_planks",
+    "overrides": [
+        { "predicate": { "custom_model_data": 100 }, "model": "minepops:item/darthvader" },
+        { "predicate": { "custom_model_data": 200 }, "model": "nyunger:item/warning" }
+    ]
+}

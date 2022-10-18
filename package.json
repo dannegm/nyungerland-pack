@@ -1,0 +1,20 @@
+{
+    "name": "nyungerland-pack",
+    "version": "3.0.0",
+    "description": "Nyungerland Texture Pack for 1.19.2",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "sh ./scripts/build.sh",
+        "upload": "node ./scripts/upload/index.mjs",
+        "format": "prettier . --write --loglevel warn",
+        "echo": "node ./tools/echo/index.mjs"
+    },
+    "dependencies": {
+        "chalk": "^5.1.2",
+        "dotenv-defaults": "^5.0.2",
+        "firebase-admin": "^11.2.0",
+        "meow": "^11.0.0",
+        "prettier": "^2.7.1"
+    }
+}

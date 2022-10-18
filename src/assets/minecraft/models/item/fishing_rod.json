@@ -1,0 +1,58 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+        { "predicate": { "cast": 1 }, "model": "item/fishing_rod_cast" },
+        {
+            "predicate": { "custom_model_data": 910 },
+            "model": "grapplinghook:item/grappling_hook_wood"
+        },
+        {
+            "predicate": { "custom_model_data": 920 },
+            "model": "grapplinghook:item/grappling_hook_stone"
+        },
+        {
+            "predicate": { "custom_model_data": 930 },
+            "model": "grapplinghook:item/grappling_hook_gold"
+        },
+        {
+            "predicate": { "custom_model_data": 940 },
+            "model": "grapplinghook:item/grappling_hook_iron"
+        },
+        {
+            "predicate": { "custom_model_data": 950 },
+            "model": "grapplinghook:item/grappling_hook_diamond"
+        },
+        {
+            "predicate": { "custom_model_data": 960 },
+            "model": "grapplinghook:item/grappling_hook_netherite"
+        },
+
+        {
+            "predicate": { "cast": 1, "custom_model_data": 910 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "cast": 1, "custom_model_data": 920 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "cast": 1, "custom_model_data": 930 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "cast": 1, "custom_model_data": 940 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "cast": 1, "custom_model_data": 950 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        },
+        {
+            "predicate": { "cast": 1, "custom_model_data": 960 },
+            "model": "grapplinghook:item/grappling_hook_cast"
+        }
+    ]
+}

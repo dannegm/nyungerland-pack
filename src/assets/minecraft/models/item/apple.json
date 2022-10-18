@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/apple"
+    },
+    "overrides": [{ "predicate": { "custom_model_data": 680 }, "model": "foods:item/echo_apple" }]
+}

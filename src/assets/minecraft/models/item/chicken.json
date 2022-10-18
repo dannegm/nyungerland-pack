@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/chicken"
+    },
+    "overrides": [{ "predicate": { "custom_model_data": 600 }, "model": "foods:item/broken_egg" }]
+}

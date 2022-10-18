@@ -8,11 +8,11 @@
 
 ```bash
 # Java
-**IP** play.nyungerland.net
+IP: play.nyungerland.net
 
 # Bedrock
-**IP** play.nyungerland.net
-**PORT** 19132
+IP: play.nyungerland.net
+PORT: 19132
 ```
 
 ### BUILD & PUBLISH

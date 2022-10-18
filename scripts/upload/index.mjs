@@ -12,8 +12,12 @@ config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const decode64 = encoded64 => Buffer.from(encoded64, 'base64').toString();
+
 const firebaseConfig = {
-    credential: admin.credential.cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY)),
+    credential: admin.credential.cert(
+        JSON.parse(decode64(process.env.FIREBASE_SERVICE_ACCOUNT_KEY)),
+    ),
     storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
 };
 

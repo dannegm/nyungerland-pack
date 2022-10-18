@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-DOTENV_PATH=../../.env
-source ../../tools/dotenv.sh
+DOTENV_PATH=.env
+source ./scripts/dotenv.sh
 
 # Cleaning before to build
 if [ "$CLEAN_BEFORE_BUILD" = true ] ; then

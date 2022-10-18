@@ -1,7 +1,455 @@
 {
     "parent": "minecraft:block/oak_planks",
     "overrides": [
-        { "predicate": { "custom_model_data": 100 }, "model": "minepops:item/darthvader" },
-        { "predicate": { "custom_model_data": 200 }, "model": "nyunger:item/warning" }
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "furnitureengine:1x1_tables/oak_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "furnitureengine:1x1_tables/spruce_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "furnitureengine:1x1_tables/birch_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "furnitureengine:1x1_tables/jungle_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "furnitureengine:1x1_tables/acacia_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "furnitureengine:1x1_tables/dark_oak_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "furnitureengine:1x1_tables/crimson_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "furnitureengine:1x1_tables/warped_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "furnitureengine:1x1_tables/coffee_table"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "furnitureengine:1x1_chairs/oak_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "furnitureengine:1x1_chairs/spruce_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "furnitureengine:1x1_chairs/birch_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "furnitureengine:1x1_chairs/jungle_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "furnitureengine:1x1_chairs/acacia_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "furnitureengine:1x1_chairs/dark_oak_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "furnitureengine:1x1_chairs/crimson_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "furnitureengine:1x1_chairs/warped_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/white_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/orange_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/magenta_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/light_blue_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/yellow_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 23
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/lime_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 24
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/pink_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 25
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/gray_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 26
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/light_gray_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 27
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/cyan_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 28
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/purple_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 29
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/blue_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 30
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/brown_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 31
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/green_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 32
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/red_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 33
+            },
+            "model": "furnitureengine:1x1_chairs/armchairs/black_armchair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 34
+            },
+            "model": "furnitureengine:1x1_desks/oak_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 35
+            },
+            "model": "furnitureengine:1x1_desks/spruce_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 36
+            },
+            "model": "furnitureengine:1x1_desks/birch_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 37
+            },
+            "model": "furnitureengine:1x1_desks/jungle_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 38
+            },
+            "model": "furnitureengine:1x1_desks/acacia_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 39
+            },
+            "model": "furnitureengine:1x1_desks/dark_oak_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 40
+            },
+            "model": "furnitureengine:1x1_desks/crimson_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 41
+            },
+            "model": "furnitureengine:1x1_desks/warped_desk"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 42
+            },
+            "model": "furnitureengine:1x1_chairs/bar_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 43
+            },
+            "model": "furnitureengine:1x1_stools/white_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 44
+            },
+            "model": "furnitureengine:1x1_stools/orange_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 45
+            },
+            "model": "furnitureengine:1x1_stools/magenta_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 46
+            },
+            "model": "furnitureengine:1x1_stools/light_blue_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 47
+            },
+            "model": "furnitureengine:1x1_stools/yellow_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 48
+            },
+            "model": "furnitureengine:1x1_stools/lime_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 49
+            },
+            "model": "furnitureengine:1x1_stools/pink_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 50
+            },
+            "model": "furnitureengine:1x1_stools/gray_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 51
+            },
+            "model": "furnitureengine:1x1_stools/light_gray_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 52
+            },
+            "model": "furnitureengine:1x1_stools/cyan_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 53
+            },
+            "model": "furnitureengine:1x1_stools/purple_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 54
+            },
+            "model": "furnitureengine:1x1_stools/blue_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 55
+            },
+            "model": "furnitureengine:1x1_stools/brown_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 56
+            },
+            "model": "furnitureengine:1x1_stools/green_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 57
+            },
+            "model": "furnitureengine:1x1_stools/red_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 58
+            },
+            "model": "furnitureengine:1x1_stools/black_stool"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 59
+            },
+            "model": "furnitureengine:1x1_office_chairs/white_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 60
+            },
+            "model": "furnitureengine:1x1_office_chairs/orange_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 61
+            },
+            "model": "furnitureengine:1x1_office_chairs/magenta_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 62
+            },
+            "model": "furnitureengine:1x1_office_chairs/light_blue_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 63
+            },
+            "model": "furnitureengine:1x1_office_chairs/yellow_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 64
+            },
+            "model": "furnitureengine:1x1_office_chairs/lime_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 65
+            },
+            "model": "furnitureengine:1x1_office_chairs/pink_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 66
+            },
+            "model": "furnitureengine:1x1_office_chairs/gray_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 67
+            },
+            "model": "furnitureengine:1x1_office_chairs/light_gray_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 68
+            },
+            "model": "furnitureengine:1x1_office_chairs/cyan_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 69
+            },
+            "model": "furnitureengine:1x1_office_chairs/purple_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 70
+            },
+            "model": "furnitureengine:1x1_office_chairs/blue_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 71
+            },
+            "model": "furnitureengine:1x1_office_chairs/brown_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 72
+            },
+            "model": "furnitureengine:1x1_office_chairs/green_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 73
+            },
+            "model": "furnitureengine:1x1_office_chairs/red_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 74
+            },
+            "model": "furnitureengine:1x1_office_chairs/black_office_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1000
+            },
+            "model": "furnitureengine:misc/grave"
+        }
     ]
 }

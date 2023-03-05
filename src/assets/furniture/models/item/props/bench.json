@@ -1,10 +1,10 @@
 {
     "credit": "Made with Blockbench",
     "textures": {
-        "0": "furniture:item/bench_wood",
-        "1": "furniture:item/bench_oak_planks_a",
-        "2": "furniture:item/bench_oldtv",
-        "particle": "furniture:item/bench_wood"
+        "0": "furniture:item/props/bench/bench_wood",
+        "1": "furniture:item/props/bench/bench_oak_planks_a",
+        "2": "furniture:item/props/bench/bench_oldtv",
+        "particle": "furniture:item/props/bench/bench_wood"
     },
     "elements": [
         {

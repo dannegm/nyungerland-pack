@@ -1,0 +1,7 @@
+{
+    "parent": "item/chest",
+    "textures": {
+        "particle": "block/obsidian"
+    },
+    "overrides": [{ "predicate": { "custom_model_data": 6022 }, "model": "gui_profile:item/enderchest" }]
+}

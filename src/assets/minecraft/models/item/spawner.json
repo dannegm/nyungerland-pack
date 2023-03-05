@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:block/spawner",
+    "overrides": [{ "predicate": { "custom_model_data": 6031 }, "model": "gui_profile:item/jail" }]
+}

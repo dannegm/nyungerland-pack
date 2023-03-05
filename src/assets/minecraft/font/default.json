@@ -1,0 +1,69 @@
+{
+    "providers": [
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf001"],
+            "height": -10,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf002"],
+            "height": -162,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:background.png",
+            "chars": ["\uf100"],
+            "height": 96,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf003"],
+            "height": -10,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf104"],
+            "height": -172,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "minecraft:gui/container/barrel.png",
+            "chars": ["\uf105"],
+            "height": 84,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf006"],
+            "height": -10,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf107"],
+            "height": -172,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:trash.png",
+            "chars": ["\uf108"],
+            "height": 98,
+            "ascent": 13,
+            "type": "bitmap"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "credit": "Made with Blockbench by rozarke",
+    "texture_size": [32, 32],
+    "textures": {
+        "ladder": "custom:block/ladder/dark_oak_ladder",
+        "particle": "custom:block/ladder/dark_oak_ladder"
+    },
+    "elements": [
+        {
+            "from": [1, 0, 15],
+            "to": [3, 16, 16],
+            "faces": {
+                "north": { "uv": [0.5, 8, 1.5, 16], "texture": "#ladder" },
+                "east": { "uv": [0.5, 8, 1, 16], "texture": "#ladder" },
+                "south": { "uv": [0.5, 8, 1.5, 16], "texture": "#ladder" },
+                "west": { "uv": [0.5, 8, 1, 16], "texture": "#ladder" },
+                "up": { "uv": [1.5, 8, 0.5, 8.5], "texture": "#ladder" },
+                "down": { "uv": [1.5, 8, 0.5, 8.5], "texture": "#ladder" }
+            }
+        },
+        {
+            "from": [13, 0, 15],
+            "to": [15, 16, 16],
+            "faces": {
+                "north": { "uv": [0.5, 8, 1.5, 16], "texture": "#ladder" },
+                "east": { "uv": [0.5, 8, 1, 16], "texture": "#ladder" },
+                "south": { "uv": [0.5, 8, 1.5, 16], "texture": "#ladder" },
+                "west": { "uv": [0.5, 8, 1, 16], "texture": "#ladder" },
+                "up": { "uv": [1.5, 8, 0.5, 8.5], "texture": "#ladder" },
+                "down": { "uv": [1.5, 8, 0.5, 8.5], "texture": "#ladder" }
+            }
+        },
+        {
+            "from": [0, 1, 14],
+            "to": [16, 4, 15],
+            "faces": {
+                "north": { "uv": [0, 6, 8, 7.5], "texture": "#ladder" },
+                "east": { "uv": [0, 6, 0.5, 7.5], "texture": "#ladder" },
+                "south": { "uv": [0, 6, 8, 7.5], "texture": "#ladder" },
+                "west": { "uv": [0, 6, 0.5, 7.5], "texture": "#ladder" },
+                "up": { "uv": [0, 6, 8, 6.5], "texture": "#ladder" },
+                "down": { "uv": [0, 7, 8, 7.5], "texture": "#ladder" }
+            }
+        },
+        {
+            "from": [0, 5, 14],
+            "to": [16, 8, 15],
+            "faces": {
+                "north": { "uv": [0, 4, 8, 5.5], "texture": "#ladder" },
+                "east": { "uv": [0, 4, 0.5, 5.5], "texture": "#ladder" },
+                "south": { "uv": [0, 4, 8, 5.5], "texture": "#ladder" },
+                "west": { "uv": [0, 4, 0.5, 5.5], "texture": "#ladder" },
+                "up": { "uv": [0, 4, 8, 4.5], "texture": "#ladder" },
+                "down": { "uv": [0, 5, 8, 5.5], "texture": "#ladder" }
+            }
+        },
+        {
+            "from": [0, 9, 14],
+            "to": [16, 12, 15],
+            "faces": {
+                "north": { "uv": [0, 2, 8, 3.5], "texture": "#ladder" },
+                "east": { "uv": [0, 2, 0.5, 3.5], "texture": "#ladder" },
+                "south": { "uv": [0, 2, 8, 3.5], "texture": "#ladder" },
+                "west": { "uv": [0, 2, 0.5, 3.5], "texture": "#ladder" },
+                "up": { "uv": [0, 2, 8, 2.5], "texture": "#ladder" },
+                "down": { "uv": [0, 3, 8, 3.5], "texture": "#ladder" }
+            }
+        },
+        {
+            "from": [0, 13, 14],
+            "to": [16, 16, 15],
+            "faces": {
+                "north": { "uv": [0, 0, 8, 1.5], "texture": "#ladder" },
+                "east": { "uv": [0, 0, 0.5, 1.5], "texture": "#ladder" },
+                "south": { "uv": [0, 0, 8, 1.5], "texture": "#ladder" },
+                "west": { "uv": [0, 0, 0.5, 1.5], "texture": "#ladder" },
+                "up": { "uv": [0, 0, 8, 0.5], "texture": "#ladder" },
+                "down": { "uv": [0, 1, 8, 1.5], "texture": "#ladder" }
+            }
+        }
+    ],
+    "groups": [
+        {
+            "name": "rail",
+            "origin": [0, 0, 0],
+            "color": 0,
+            "nbt": "{}",
+            "armAnimationEnabled": false,
+            "children": [0, 1]
+        },
+        {
+            "name": "step",
+            "origin": [0, 0, 0],
+            "color": 0,
+            "nbt": "{}",
+            "armAnimationEnabled": false,
+            "children": [2, 3, 4, 5]
+        }
+    ]
+}

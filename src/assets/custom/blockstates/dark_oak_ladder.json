@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "custom:block/ladder/dark_oak_ladder" },
+        "facing=east": { "model": "custom:block/ladder/dark_oak_ladder", "y": 90 },
+        "facing=south": { "model": "custom:block/ladder/dark_oak_ladder", "y": 180 },
+        "facing=west": { "model": "custom:block/ladder/dark_oak_ladder", "y": 270 }
+    }
+}

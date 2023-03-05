@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:block/gray_stained_glass"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 6010 }, "model": "gui_profile:item/empty" },
+        { "predicate": { "custom_model_data": 6011 }, "model": "gui_profile:item/off_hand" },
+        { "predicate": { "custom_model_data": 6012 }, "model": "gui_profile:item/helmet" },
+        { "predicate": { "custom_model_data": 6013 }, "model": "gui_profile:item/chestplate" },
+        { "predicate": { "custom_model_data": 6014 }, "model": "gui_profile:item/leggings" },
+        { "predicate": { "custom_model_data": 6015 }, "model": "gui_profile:item/boots" }
+    ]
+}

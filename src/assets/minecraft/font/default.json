@@ -64,6 +64,28 @@
             "height": 98,
             "ascent": 13,
             "type": "bitmap"
+        },
+
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf109"],
+            "height": -54,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf110"],
+            "height": -172,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:hive.png",
+            "chars": ["\uf111"],
+            "height": 83,
+            "ascent": 13,
+            "type": "bitmap"
         }
     ]
 }

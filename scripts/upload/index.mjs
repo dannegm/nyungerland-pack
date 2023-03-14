@@ -79,7 +79,7 @@ const updateWebHook = async ({ resourceUrl }) => {
 };
 
 const startUpload = async () => {
-    const { resourceUrl } = await uploadFile('packs', 'nyungerland-1.19.2.zip');
+    const { resourceUrl } = await uploadFile('packs', 'nyungerland-1.19.3.zip');
     console.log('URL del Recurso:');
     console.log('');
     console.log(resourceUrl);

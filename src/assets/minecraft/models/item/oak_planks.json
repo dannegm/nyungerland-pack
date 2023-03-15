@@ -465,6 +465,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 78
+            },
+            "model": "furniture:item/blocks/totem_head"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 79
+            },
+            "model": "furniture:item/props/air_extractor"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 1000
             },
             "model": "furniture:item/props/grave"

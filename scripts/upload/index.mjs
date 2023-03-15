@@ -15,6 +15,8 @@ config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const FILENAME = process.env.PACKAGE_FILENAME;
+
 const decode64 = encoded64 => Buffer.from(encoded64, 'base64').toString();
 
 const firebaseConfig = {
@@ -79,7 +81,7 @@ const updateWebHook = async ({ resourceUrl }) => {
 };
 
 const startUpload = async () => {
-    const { resourceUrl } = await uploadFile('packs', 'nyungerland-1.19.3.zip');
+    const { resourceUrl } = await uploadFile('packs', FILENAME);
     console.log('URL del Recurso:');
     console.log('');
     console.log(resourceUrl);

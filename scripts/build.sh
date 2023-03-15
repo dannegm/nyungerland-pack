@@ -9,10 +9,9 @@ fi
 
 mkdir ./build || true
 
-
 yarn format
 cd ./src
-zip ../build/nyungerland-1.19.2.zip -r .
+zip "../build/$PACKAGE_FILENAME" -r .
 
 # Reveal folder after build
 if [ "$REVEAL_AFTER_BUILD" = true ] ; then

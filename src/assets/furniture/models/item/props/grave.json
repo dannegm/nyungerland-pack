@@ -1,6 +1,6 @@
 {
     "textures": {
-        "2": "furniture:item/grave"
+        "2": "furniture:item/props/grave/grave"
     },
     "elements": [
         {

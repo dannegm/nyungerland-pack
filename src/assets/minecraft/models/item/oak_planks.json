@@ -59,49 +59,49 @@
             "predicate": {
                 "custom_model_data": 10
             },
-            "model": "furniture:item/charis/oak_chair"
+            "model": "furniture:item/chairs/oak_chair"
         },
         {
             "predicate": {
                 "custom_model_data": 11
             },
-            "model": "furniture:item/charis/spruce_chair"
+            "model": "furniture:item/chairs/spruce_chair"
         },
         {
             "predicate": {
                 "custom_model_data": 12
             },
-            "model": "furniture:item/charis/birch_chair"
+            "model": "furniture:item/chairs/birch_chair"
         },
         {
             "predicate": {
                 "custom_model_data": 13
             },
-            "model": "furniture:item/charis/jungle_chair"
+            "model": "furniture:item/chairs/jungle_chair"
         },
         {
             "predicate": {
                 "custom_model_data": 14
             },
-            "model": "furniture:item/charis/acacia_chair"
+            "model": "furniture:item/chairs/acacia_chair"
         },
         {
             "predicate": {
                 "custom_model_data": 15
             },
-            "model": "furniture:item/charis/dark_oak_chair"
+            "model": "furniture:item/chairs/dark_oak_chair"
         },
         {
             "predicate": {
                 "custom_model_data": 16
             },
-            "model": "furniture:item/charis/crimson_chair"
+            "model": "furniture:item/chairs/crimson_chair"
         },
         {
             "predicate": {
                 "custom_model_data": 17
             },
-            "model": "furniture:item/charis/warped_chair"
+            "model": "furniture:item/chairs/warped_chair"
         },
         {
             "predicate": {
@@ -475,6 +475,50 @@
             },
             "model": "furniture:item/props/air_extractor"
         },
+
+        {
+            "predicate": {
+                "custom_model_data": 80
+            },
+            "model": "furniture:item/chairs/spruce_chair_small"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 81
+            },
+            "model": "furniture:item/chairs/spruce_deck_chair"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 82
+            },
+            "model": "furniture:item/props/cask"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 83
+            },
+            "model": "furniture:item/props/jukebox_cover"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 84
+            },
+            "model": "furniture:item/props/ship_wheel"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 85
+            },
+            "model": "furniture:item/sofas/brown_sofa_left"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 86
+            },
+            "model": "furniture:item/sofas/brown_sofa_right"
+        },
+
         {
             "predicate": {
                 "custom_model_data": 1000

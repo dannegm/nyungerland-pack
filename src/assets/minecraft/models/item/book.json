@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/book"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 360 }, "model": "misc:item/pad" },
+        { "predicate": { "custom_model_data": 720 }, "model": "misc:item/dash" },
+        { "predicate": { "custom_model_data": 8812 }, "model": "icons:item/help" }
+    ]
+}

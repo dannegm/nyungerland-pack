@@ -1,6 +1,14 @@
 {
     "providers": [
         {
+            "file": "tags:afk.png",
+            "chars": ["\uf401"],
+            "height": 7,
+            "ascent": 7,
+            "type": "bitmap"
+        },
+
+        {
             "file": "gui_profile:pixel.png",
             "chars": ["\uf001"],
             "height": -10,
@@ -37,7 +45,7 @@
             "type": "bitmap"
         },
         {
-            "file": "minecraft:gui/container/barrel.png",
+            "file": "gui_utils:barrel.png",
             "chars": ["\uf105"],
             "height": 84,
             "ascent": 13,
@@ -84,6 +92,100 @@
             "file": "gui_utils:hive.png",
             "chars": ["\uf111"],
             "height": 83,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf112"],
+            "height": -172,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf113"],
+            "height": -10,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:backpack.png",
+            "chars": ["\uf114"],
+            "height": 138,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf115"],
+            "height": -36,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf116"],
+            "height": -10,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:pad.png",
+            "chars": ["\uf117"],
+            "height": 122,
+            "ascent": 14,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_profile:pixel.png",
+            "chars": ["\uf118"],
+            "height": -164,
+            "ascent": -2147483648,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:dash.png",
+            "chars": ["\uf119"],
+            "height": 142,
+            "ascent": 16,
+            "type": "bitmap"
+        },
+
+        {
+            "file": "gui_utils:golden_barrel.png",
+            "chars": ["\uf121"],
+            "height": 84,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:chest.png",
+            "chars": ["\uf122"],
+            "height": 84,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:large_chest.png",
+            "chars": ["\uf123"],
+            "height": 139,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:golden_chest.png",
+            "chars": ["\uf124"],
+            "height": 84,
+            "ascent": 13,
+            "type": "bitmap"
+        },
+        {
+            "file": "gui_utils:golden_large_chest.png",
+            "chars": ["\uf125"],
+            "height": 139,
             "ascent": 13,
             "type": "bitmap"
         }

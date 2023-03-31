@@ -13,8 +13,8 @@
     "container.blast_furnace": "§fAlto Horno",
     "container.repair": "§fReparar y renombrar",
     "container.brewing": "§fAlambique alquímico",
-    "container.chest": "§fCofre",
-    "container.chestDouble": "§fCofre grande",
+    "container.chest": "§f\uf003\uf122\uf104§fCofre",
+    "container.chestDouble": "§f\uf003\uf123\uf104§fCofre grande",
     "container.enderchest": "§fCofre de ender",
     "container.shulkerBox": "§fCaja de shulker",
     "container.loom": "§fTelar",
@@ -22,5 +22,7 @@
     "container.cartography_table": "§fMesa de cartografía",
     "container.stonecutter": "§fCortapiedras",
     "container.barrel": "§f\uf003\uf105\uf104§fBarril",
-    "container.upgrade": "§fMejorar equipamiento"
+    "container.upgrade": "§fMejorar equipamiento",
+    "entity.minecraft.chest_boat": "§f\uf003\uf122\uf104§fBote con cofre",
+    "entity.minecraft.chest_minecart": "§f\uf003\uf122\uf104§fVagón con cofre"
 }

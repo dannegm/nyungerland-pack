@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:block/furnace",
+    "overrides": [{ "predicate": { "custom_model_data": 8806 }, "model": "icons:item/furnace" }]
+}

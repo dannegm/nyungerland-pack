@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:block/crafting_table",
+    "overrides": [{ "predicate": { "custom_model_data": 8816 }, "model": "icons:item/crafting" }]
+}

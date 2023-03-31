@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable camelcase */
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -9,6 +10,10 @@ import axios from 'axios';
 import qs from 'qs';
 
 import { config } from 'dotenv-defaults';
+
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
+const { version } = require('../../package.json');
 
 config();
 
@@ -28,18 +33,26 @@ admin.initializeApp(firebaseConfig);
 
 const bucket = admin.storage().bucket();
 
+const appendVersionToFilename = (filename, ver) => {
+    const filenameSplitted = filename.split('.');
+    const ext = filenameSplitted.at(-1);
+    const name = filename.replace(`.${ext}`, '');
+    return [name, 'ver', ver, ext].join('.');
+};
+
 const uploadFile = async (folder, file) => {
+    const filename = appendVersionToFilename(file, version);
     const filePath = path.join(__dirname, '../../build', `./${file}`);
 
     const options = {
-        destination: `${folder}/${file}`,
+        destination: `${folder}/${filename}`,
     };
 
-    console.log(`[${file}] uploading...`);
+    console.log(`[${filename}] uploading...`);
 
     try {
         await bucket.upload(filePath, options);
-        console.log(`[${file}] upload complete`);
+        console.log(`[${filename}] upload complete`);
 
         const [resourceUrl] = await bucket.file(options.destination).getSignedUrl({
             action: 'read',
@@ -47,11 +60,11 @@ const uploadFile = async (folder, file) => {
         });
 
         return {
-            file,
+            file: filename,
             resourceUrl,
         };
     } catch (error) {
-        console.log(`[${file}] unexpected error`);
+        console.log(`[${filename}] unexpected error`);
         console.log(error);
         return error;
     }

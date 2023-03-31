@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/template_bed",
+    "textures": {
+        "particle": "minecraft:block/white_wool"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 8810 }, "model": "icons:item/sethome" },
+        { "predicate": { "custom_model_data": 8811 }, "model": "icons:item/bed" }
+    ]
+}

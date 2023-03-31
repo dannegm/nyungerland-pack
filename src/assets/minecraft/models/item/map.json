@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/map"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 8805 }, "model": "icons:item/gocheckpoint" },
+        { "predicate": { "custom_model_data": 8808 }, "model": "icons:item/setcheckpoint" }
+    ]
+}

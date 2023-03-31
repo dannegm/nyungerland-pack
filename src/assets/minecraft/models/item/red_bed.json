@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/template_bed",
+    "textures": {
+        "particle": "minecraft:block/red_wool"
+    },
+    "overrides": [{ "predicate": { "custom_model_data": 8809 }, "model": "icons:item/gohome" }]
+}

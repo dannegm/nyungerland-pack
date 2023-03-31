@@ -19,6 +19,7 @@
         { "predicate": { "custom_model_data": 834 }, "model": "backpacks:item/light_gray" },
         { "predicate": { "custom_model_data": 836 }, "model": "backpacks:item/gray" },
         { "predicate": { "custom_model_data": 838 }, "model": "backpacks:item/black" },
-        { "predicate": { "custom_model_data": 840 }, "model": "backpacks:item/brown" }
+        { "predicate": { "custom_model_data": 840 }, "model": "backpacks:item/brown" },
+        { "predicate": { "custom_model_data": 8815 }, "model": "icons:item/backpack" }
     ]
 }

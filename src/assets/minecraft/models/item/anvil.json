@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:block/anvil",
+    "overrides": [{ "predicate": { "custom_model_data": 8801 }, "model": "icons:item/anvil" }]
+}

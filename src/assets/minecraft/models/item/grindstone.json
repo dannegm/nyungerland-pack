@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:block/grindstone",
+    "overrides": [{ "predicate": { "custom_model_data": 8807 }, "model": "icons:item/grindstone" }]
+}

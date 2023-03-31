@@ -1,0 +1,4 @@
+{
+    "parent": "minecraft:block/enchanting_table",
+    "overrides": [{ "predicate": { "custom_model_data": 8803 }, "model": "icons:item/enchanttable" }]
+}

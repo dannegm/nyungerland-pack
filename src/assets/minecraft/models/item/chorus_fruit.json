@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/chorus_fruit"
+    },
+    "overrides": [{ "predicate": { "custom_model_data": 8802 }, "model": "icons:item/goback" }]
+}

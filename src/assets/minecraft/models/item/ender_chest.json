@@ -3,5 +3,8 @@
     "textures": {
         "particle": "block/obsidian"
     },
-    "overrides": [{ "predicate": { "custom_model_data": 6022 }, "model": "gui_profile:item/enderchest" }]
+    "overrides": [
+        { "predicate": { "custom_model_data": 6022 }, "model": "gui_profile:item/enderchest" },
+        { "predicate": { "custom_model_data": 8814 }, "model": "icons:item/enderchest" }
+    ]
 }

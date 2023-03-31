@@ -13,8 +13,8 @@
     "container.blast_furnace": "§fBlast Furnace",
     "container.repair": "§fRepair & Name",
     "container.brewing": "§fBrewing Stand",
-    "container.chest": "§fChest",
-    "container.chestDouble": "§fLarge Chest",
+    "container.chest": "§f\uf003\uf122\uf104§fChest",
+    "container.chestDouble": "§f\uf003\uf123\uf104§fLarge Chest",
     "container.enderchest": "§fEnder Chest",
     "container.shulkerBox": "§fShulker Box",
     "container.loom": "§fLoom",
@@ -24,5 +24,7 @@
     "container.barrel": "§f\uf003\uf105\uf104§fBarrel",
     "container.upgrade": "§fUpgrade Gear",
     "block.minecraft.beacon.primary": "§ePrimary Power",
-    "block.minecraft.beacon.secondary": "§eSecondary Power"
+    "block.minecraft.beacon.secondary": "§eSecondary Power",
+    "entity.minecraft.chest_boat": "§f\uf003\uf122\uf104§fBoat with Chest",
+    "entity.minecraft.chest_minecart": "§f\uf003\uf122\uf104§fMinecart with Chest"
 }

@@ -9,7 +9,9 @@ fi
 
 mkdir ./build || true
 
+yarn version --patch
 yarn format
+
 cd ./src
 zip "../build/$PACKAGE_FILENAME" -r .
 
